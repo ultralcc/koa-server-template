@@ -1,0 +1,27 @@
+{
+  "name": "push-notification-server",
+  "version": "1.0.0",
+  "description": "Push notification server using fcm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --kill-others \"tsc -w\" \"nodemon .\""
+  },
+  "keywords": [],
+  "author":"Igncaio Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "koa": "^2.11.0",
+    "koa-async-validator": "^0.4.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "concurrently": "^5.1.0"
+  }
+}
